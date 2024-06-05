@@ -1,0 +1,170 @@
+/* Set background color and font styles for the body */
+body {
+  background-color: #000000;
+  font-family: Arial, sans-serif;
+}
+html{
+  font-size: 100%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+.main{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: 110vh;
+  
+}
+.header{
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 9%;
+  background: #070701;
+  box-shadow: 10px 10px 25px;
+}
+/*Button*/
+.btn{
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 10px 4rem;
+  font-size: 1rem;
+  border-radius: .5rem;
+  border: .3rem solid rgb(226, 207, 207);
+  color: rgb(211, 34, 34);
+  cursor: pointer;
+  background: none;
+}
+.btn{
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 10px 4rem;
+  font-size: 1rem;
+  border-radius: .5rem;
+  border: .3rem solid rgb(15, 2, 2);
+  color: rgb(255, 253, 253);
+  cursor: pointer;
+  background: none;
+}
+.btn:hover{
+  background: #df2c14;
+  color: rgb(248, 242, 242);
+  border: .3rem solid black;
+}
+.btt{
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 10px 4rem;
+  font-size: 1rem;
+  border-radius: 5rem;
+  border: .3rem solid rgb(248, 242, 242);
+  color: white;
+  cursor: pointer;
+  background: none;
+}
+.btt:hover{
+  background: antiquewhite;
+  color: black;
+  border: .3rem solid black;
+  /* Define styles for the navigation bar */
+}
+.navbar a {
+    color: #f8eeee;
+    margin-right: 400px;
+    text-decoration: none;
+    font-size: large;
+
+  }
+  
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(images/ha.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+ padding-top: 9rem;
+}
+
+.home .content h3{
+  color: rgb(255, 232, 162);
+  font-size: 3rem;
+}
+.home .content h3 span{
+  color: rgb(199, 196, 0);
+}
+.home .content p{
+  color: rgb(243, 236, 195);
+}
+  /* Define styles for the header */
+  header.header {
+    background-color: #0e0404;
+    color: #df6464;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Define styles for the main section */
+  div.main {
+    max-width: 100%;
+    margin: none;
+    padding: 5px;
+  }
+  
+  /* Define styles for the home section */
+  section.home {
+    text-align: center;
+    margin-bottom: 40px;
+  } 
+  section.home a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4646;
+    color: #f8f8e0;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+section.about {
+color: #fff3f3;
+font-size:medium;
+}
+/* Define styles for the products section */
+section.products {
+  text-align: center;
+}
+
+section.products h1.heading {
+  font-size: 30px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+section.footer{
+font-size: medium;
+color: #fff;
+}
+.products .wrapper {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.products .vape {
+  width: calc(30% - 10px);
+  margin-bottom: 20px;
+  color: #fff5f5;
+}
+
+.products .vape img {
+  width: 80%;
+  height: 70%;
+  
+}
